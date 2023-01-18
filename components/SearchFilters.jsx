@@ -16,7 +16,7 @@ import { useRouter } from "next/router";
 
 export default function SearchFilters() {
   const [filters, setFilters] = useState(filterData);
-  const router = useRouter();
+  //   const router = useRouter();
 
   const searchProperties = (filterValues) => {
     const path = router.pathname;
