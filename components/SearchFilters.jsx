@@ -1,14 +1,6 @@
 import React, { useState } from "react";
-import {
-  Flex,
-  Select,
-  Box,
-  Text,
-  Input,
-  Spinner,
-  Icon,
-  Button,
-} from "@chakra-ui/react";
+import { Flex, Select, Box, Text } from "@chakra-ui/react";
+import { Input, Spinner, Icon, Button } from "@chakra-ui/react";
 import { MdCancel } from "react-icons/md";
 import Image from "next/image";
 import { filterData, getFilterValues } from "@/utils/filterData";
