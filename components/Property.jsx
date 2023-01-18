@@ -25,16 +25,18 @@ const Property = ({
     <Flex
       flexWrap="wrap"
       w="420px"
+      h="full"
       p="5"
       paddingTop="0px"
       justifyContent="flex-start"
+      alignContent="space-between"
       cursor="pointer"
     >
       <Box>
         <Image
           src={coverPhoto ? coverPhoto.url : DefaultImage}
-          width={400}
-          height={260}
+          width="400"
+          height="260"
         />
       </Box>
       <Box w="full">
